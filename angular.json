@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "css"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "node_modules/@nebular/theme/styles/prebuilt/cosmic.css"
             ],
             "scripts": []
           },
@@ -92,7 +92,6 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
             ],
             "scripts": []
           }
